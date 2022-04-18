@@ -1,0 +1,11 @@
+function sumMultiple3And5Bellow1000() {
+  let numero = 0
+  for (let x = 0; x < 1000; x++) {
+    if (x % 3 === 0 || x % 5 === 0) {
+      numero = numero + x
+    }
+  }
+  return numero
+}
+
+console.log(sumMultiple3and5Bellow1000())
