@@ -3,13 +3,15 @@
 Find the sum of all the multiples of 3 or 5 below 1000. */
 
 function sum35(number) {
-let total = 0
-  for (let x = 0; x < number; x++) {
-    if (x % 3 === 0 || x % 5 === 0) {
-      total += x
+  let total = 0
+    for (let x = 0; x < number; x++) {
+      if (x % 3 === 0 || x % 5 === 0) {
+        total += x
+      }
     }
+    return total
   }
-  return total
-}
+  
+  console.log(sum35(1000))
 
-console.log(sum35(1000))
+  // Answer: 233168
