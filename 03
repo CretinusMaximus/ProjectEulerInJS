@@ -16,3 +16,5 @@ function getLargestPrimeFactor(number) {
 }
 
 console.log(getLargestPrimeFactor(600851475143));
+
+// Answer: 6857
